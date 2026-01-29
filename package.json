@@ -1,0 +1,10 @@
+{
+  "name": "liftup-online",
+  "version": "1.0.0",
+  "description": "A modern, calm, scroll-animated marketing site for a service-oriented company helping small businesses go online.",
+  "private": true,
+  "scripts": {
+    "start": "echo \"Open index.html in your browser to view the site.\""
+  }
+}
+
