@@ -16,7 +16,7 @@ scrollButtons.forEach((btn) => {
   });
 });
 
-// Sticky header mobile menu
+
 const navToggle = document.querySelector(".nav-toggle");
 const navMobile = document.querySelector(".nav-mobile");
 
@@ -37,7 +37,7 @@ if (navToggle && navMobile) {
   });
 }
 
-// Scroll-triggered animations
+
 const animatedEls = document.querySelectorAll("[data-animate]");
 
 if ("IntersectionObserver" in window) {
@@ -86,7 +86,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// Service detail overlays
+
 const serviceLayer = document.querySelector(".service-detail-layer");
 const servicePanels = document.querySelectorAll(".service-detail");
 const serviceOpenButtons = document.querySelectorAll("[data-open-service]");
@@ -140,7 +140,7 @@ if (serviceLayer) {
   });
 }
 
-// Contact form confirmations (no real network, just UX)
+
 const contactForms = document.querySelectorAll(".contact-form");
 
 contactForms.forEach((form) => {
